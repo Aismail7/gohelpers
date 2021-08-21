@@ -2,7 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/Aismail7/gohelpers.svg)](https://pkg.go.dev/github.com/Aismail7/gohelpers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The `MrAndreID/GoHelpers` package is a collection of functions in the go language.
+The `Aismail7/GoHelpers` package is a collection of functions in the go language.
 
 ---
 
