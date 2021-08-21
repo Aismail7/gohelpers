@@ -1,6 +1,6 @@
-# MrAndreID / Go Helpers
+# Aismail7 / Go Helpers
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/MrAndreID/gohelpers.svg)](https://pkg.go.dev/github.com/MrAndreID/gohelpers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Aismail7/gohelpers.svg)](https://pkg.go.dev/github.com/Aismail7/gohelpers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The `MrAndreID/GoHelpers` package is a collection of functions in the go language.
 
@@ -21,10 +21,10 @@ The `MrAndreID/GoHelpers` package is a collection of functions in the go languag
 
 ## Install
 
-To use The `MrAndreID/GoHelpers` package, you must follow the steps below:
+To use The `Aismail7/GoHelpers` package, you must follow the steps below:
 
 ```sh
-go get -u github.com/MrAndreID/gohelpers
+go get -u github.com/Aismail7/gohelpers
 ```
 
 ## Usage
@@ -45,13 +45,13 @@ Output:
 ### JSON Encode
 
 ```go
-fmt.Println(gohelpers.JSONEncode(map[string]interface{}{"First Name": "Andrea", "Last Name": "Adam"}))
+fmt.Println(gohelpers.JSONEncode(map[string]interface{}{"First Name": "ismail", "Last Name": "Adam"}))
 ```
 
 Output:
 
 ```sh
-{"First Name":"Andrea","Last Name":"Adam"}
+{"First Name":"ismail","Last Name":"Adam"}
 ```
 
 ### Generate a Bytes
@@ -119,7 +119,7 @@ Output:
 ```go
 key := gohelpers.GenerateKey(32)
 
-encryptedData, err := gohelpers.Encrypt(key, "Andrea Adam")
+encryptedData, err := gohelpers.Encrypt(key, "Ismail")
 if err != nil {
     gohelpers.ErrorMessage("something went wrong when encrypting data", err)
 }
@@ -155,7 +155,7 @@ Andrea Adam
 ### Get New Line
 
 ```go
-fmt.Println("Andrea" + gohelpers.GetNewLine() + "Adam")
+fmt.Println("Ismail" + gohelpers.GetNewLine() + "Adam")
 ```
 
 Output:
@@ -168,9 +168,9 @@ Adam
 ### Merge Maps
 
 ```go
-map1 := map[string]interface{}{"FirstName": "Andrea", "LastName": "Adam"}
+map1 := map[string]interface{}{"FirstName": "Ismail", "LastName": "Adam"}
 map2 := map[string]interface{}{"Age": 21}
-map3 := map[string]interface{}{"FirstName": "Andrea", "MidName": nil, "LastName": "Adam"}
+map3 := map[string]interface{}{"FirstName": "Ismail", "MidName": nil, "LastName": "Adam"}
 
 fmt.Println(gohelpers.MergeMaps(map1, map2, map3))
 ```
@@ -186,7 +186,7 @@ map[Age:21 FirstName:Andrea LastName:Adam MidName:<nil>]
 ```go
 key := gohelpers.GenerateKey(32)
 
-encryptedKey, err := gohelpers.GenerateEncryptedKey([]string{"Andrea", "Adam"}, "_", key)
+encryptedKey, err := gohelpers.GenerateEncryptedKey([]string{"Ismail", "Ahmad"}, "_", key)
 if err != nil {
     gohelpers.ErrorMessage("something went wrong when generating encrypted key", err)
 }
@@ -205,7 +205,7 @@ ccaa9be63b4699a53166e1cf4a0086ff3ced25dca2f0672b9cb22309f5270087e7947cb643e579
 ```go
 key := gohelpers.GenerateKey(32)
 
-encryptedKey, err := gohelpers.GenerateEncryptedKeyWithDatetime([]string{"Andrea", "Adam"}, "_", key, time.Now())
+encryptedKey, err := gohelpers.GenerateEncryptedKeyWithDatetime([]string{"Ismail", "Ahmad"}, "_", key, time.Now())
 if err != nil {
     gohelpers.ErrorMessage("something went wrong when generating encrypted key with datetime", err)
 }
@@ -243,7 +243,7 @@ Output:
 ```go
 key := gohelpers.GenerateKey(32)
 
-encryptedHash, encryptedSalt, err := gohelpers.GenerateHashAndSalt("Andrea Adam", 32, key, 5)
+encryptedHash, encryptedSalt, err := gohelpers.GenerateHashAndSalt("Ismail Ahmad", 32, key, 5)
 if err != nil {
     gohelpers.ErrorMessage("something went wrong when generating hash and salt", err)
 }
@@ -262,7 +262,7 @@ Hash : 18f65095a8a2ad99851072aee8801c73eea67e2fb18866e8b96aaf4fdd996a879ee1a7987
 ```go
 key := gohelpers.GenerateKey(32)
 
-encryptedHash, encryptedSalt, err := gohelpers.GenerateHashAndSalt("Andrea Adam", 32, key, 5)
+encryptedHash, encryptedSalt, err := gohelpers.GenerateHashAndSalt("Ismail Ahmad", 32, key, 5)
 if err != nil {
     gohelpers.ErrorMessage("something went wrong when generating hash and salt", err)
 }
@@ -286,7 +286,7 @@ I use [SemVer](https://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-**Andrea Adam** - [MrAndreID](https://github.com/MrAndreID/)
+**Ismail Ahmad** - [MrAndreID](https://github.com/Aismail7/)
 
 ## License
 
@@ -298,4 +298,4 @@ Documentation for Go Language can be found on the [Go Language website](https://
 
 ## More
 
-Documentation can be found [on https://go.dev/](https://pkg.go.dev/github.com/MrAndreID/gohelpers).
+Documentation can be found [on https://go.dev/](https://pkg.go.dev/github.com/Aismail7/gohelpers).
