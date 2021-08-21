@@ -286,7 +286,7 @@ I use [SemVer](https://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-**Ismail Ahmad** - [MrAndreID](https://github.com/Aismail7/)
+**Ismail Ahmad** - [Aismail7](https://github.com/Aismail7/)
 
 ## License
 
