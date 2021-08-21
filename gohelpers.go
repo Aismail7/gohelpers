@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MrAndreID/golog"
+	"github.com/Aismail7/golog"
 	"golang.org/x/crypto/bcrypt"
 )
 
