@@ -45,13 +45,13 @@ Output:
 ### JSON Encode
 
 ```go
-fmt.Println(gohelpers.JSONEncode(map[string]interface{}{"First Name": "ismail", "Last Name": "Adam"}))
+fmt.Println(gohelpers.JSONEncode(map[string]interface{}{"First Name": "Ismail", "Last Name": "Ahmad"}))
 ```
 
 Output:
 
 ```sh
-{"First Name":"ismail","Last Name":"Adam"}
+{"First Name":"Ismail","Last Name":"Ahmad"}
 ```
 
 ### Generate a Bytes
@@ -155,7 +155,7 @@ Andrea Adam
 ### Get New Line
 
 ```go
-fmt.Println("Ismail" + gohelpers.GetNewLine() + "Adam")
+fmt.Println("Ismail" + gohelpers.GetNewLine() + "Ahmad")
 ```
 
 Output:
@@ -168,9 +168,9 @@ Adam
 ### Merge Maps
 
 ```go
-map1 := map[string]interface{}{"FirstName": "Ismail", "LastName": "Adam"}
+map1 := map[string]interface{}{"FirstName": "Ismail", "LastName": "Ahmad"}
 map2 := map[string]interface{}{"Age": 21}
-map3 := map[string]interface{}{"FirstName": "Ismail", "MidName": nil, "LastName": "Adam"}
+map3 := map[string]interface{}{"FirstName": "Ismail", "MidName": nil, "LastName": "Ahmad"}
 
 fmt.Println(gohelpers.MergeMaps(map1, map2, map3))
 ```
